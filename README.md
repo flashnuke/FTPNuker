@@ -9,7 +9,7 @@ Simply run `./FTPNuker.sh target_host user_name path_to_passlist.txt` </br>
 The script sends simple cURL requests with the credentials, and scans the response for success login codes (`225, 226`).
 
 ### Internal Settings
-You can modify the `cURL` timeout, target port and frequency of echoing inside the bash file.
+You can modify the `cURL` timeout, target port and frequency of progress echoing inside the bash file.
 
 ## General Notes
 
