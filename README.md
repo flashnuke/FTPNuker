@@ -11,6 +11,11 @@ The script sends simple cURL requests with the credentials, and scans the respon
 ### Internal Settings
 You can modify the `cURL` timeout, target port and frequency of echoing inside the bash file.
 
+## General Notes
+
+* This script does not attempt [anonymous login](https://securityforeveryone.com/tools/anonymous-ftp-login-checker)
+* This won't work on machines that implement protection against FTP bruteforcing
+
 
 # Disclaimer
 
