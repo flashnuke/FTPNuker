@@ -1,5 +1,15 @@
 # FTPNuker
-A tool for brute-forcing FTP
+A simple tool for brute-forcing FTP using basic cURL commands. </br></br>
+<img width="354" alt="image" src="https://user-images.githubusercontent.com/59119926/184116714-15494694-de0c-4061-b226-7ca1edc90754.png">
+
+
+## Usage
+
+Simply run `./FTPNuker.sh target_host user_name path_to_passlist.txt` </br>
+The script sends simple cURL requests with the credentials, and scans the response for success login codes (`225, 226`).
+
+### Internal Settings
+You can modify the `cURL` timeout, target port and frequency of echoing inside the bash file.
 
 
 # Disclaimer
